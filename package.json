@@ -1,11 +1,13 @@
 {
   "name": "dental-backend",
-  "version": "1.0.0",
-  "main": "server.js",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Cloud-native appointment API built for AWS Lambda and DynamoDB",
   "scripts": {
-    "start": "node server.js"
+    "test": "node --test",
+    "start": "node local.js"
   },
-  "dependencies": {
-    "express": "^4.18.2"
+  "engines": {
+    "node": ">=22"
   }
 }
